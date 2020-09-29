@@ -1169,7 +1169,7 @@ pre .javascript .function {
 }
 .links-of-author a::before,
 .links-of-author span.exturl::before {
-  background: #2083b4;
+  background: #017e30;
   border-radius: 50%;
   content: ' ';
   display: inline-block;
@@ -2439,4 +2439,23 @@ ul.breadcrumb li + li:last-child {
 }
 .links-of-blogroll-item {
   padding: 0;
+}
+body {
+  background: url("/images/cherry_bg.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: 50% 50%;
+}
+.content-wrap {
+  opacity: 0.85;
+}
+.sidebar {
+  opacity: 0.85;
+}
+.header-inner {
+  background: rgba(255,255,255,0.85);
+}
+.popup {
+  opacity: 0.85;
 }
